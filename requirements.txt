@@ -1,0 +1,9 @@
+# Python 3.10–3.13
+playwright>=1.49      # drives your installed Google Chrome (channel="chrome"); no browser download needed
+numpy>=2.0
+scipy>=1.14
+soundfile>=0.12
+pillow>=10
+imageio-ffmpeg>=0.5   # bundled ffmpeg (or set $FFMPEG / install ffmpeg)
+kokoro-onnx>=0.4      # narration TTS (model files: see README)
+faster-whisper>=1.0   # optional: intelligibility QA of the narration

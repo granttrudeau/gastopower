@@ -1,0 +1,135 @@
+{
+ "voice": {
+  "blend": {
+   "am_michael": 0.45,
+   "am_onyx": 0.4,
+   "am_fenrir": 0.15
+  },
+  "speed": 0.9
+ },
+ "lines": [
+  {
+   "id": "v01",
+   "text": "Out here, the night has a glow to it."
+  },
+  {
+   "id": "v02",
+   "text": "Gas with nowhere to go… burning in the dark."
+  },
+  {
+   "id": "v03",
+   "text": "The answer was born nearly six thousand miles away — in Florence, at the Pignone foundry, in 1842.",
+   "say": "The answer was born nearly six thousand miles away. In Florence, at the [Pignone](/pinjˈoʊneɪ/) foundry, in eighteen forty-two."
+  },
+  {
+   "id": "v04",
+   "text": "It became Nuovo Pignone. It mastered compressors, then gas turbines — first under license from GE, then as part of GE.",
+   "say": "It became [Nuovo Pignone](/nwˈɔːvoʊ pinjˈoʊneɪ/). It mastered compressors, then gas turbines. First under license from G E, then as part of G E."
+  },
+  {
+   "id": "v05",
+   "text": "Today, it is Baker Hughes."
+  },
+  {
+   "id": "v06",
+   "text": "In 2013, its engineers began a new turbine, built on decades of proven design.",
+   "say": "In twenty thirteen, its engineers began a new turbine, built on decades of proven design."
+  },
+  {
+   "id": "v07",
+   "text": "They called it NovaLT.",
+   "say": "They called it Nova L T."
+  },
+  {
+   "id": "v08",
+   "text": "Air. Twelve stages, squeezed nineteen to one.",
+   "say": "Air... Twelve stages, squeezed nineteen to one."
+  },
+  {
+   "id": "v09",
+   "text": "Fire. One ring of flame, fed by thirty-nine premixers, holding NOx under fifteen parts per million."
+  },
+  {
+   "id": "v10",
+   "text": "Its combustor has been tested on up to one hundred percent hydrogen."
+  },
+  {
+   "id": "v11",
+   "text": "Motion. Seven thousand eight hundred revolutions a minute."
+  },
+  {
+   "id": "v12",
+   "text": "Power. Sixteen point nine megawatts, and thirty-five thousand hours between maintenance."
+  },
+  {
+   "id": "v13",
+   "text": "The first went to work on a Canadian pipeline in 2017.",
+   "say": "The first went to work on a Canadian pipeline in twenty seventeen."
+  },
+  {
+   "id": "v14",
+   "text": "Now they're ordered by the dozen — for data centers, and for the oilfield.",
+   "say": "Now they're ordered by the dozen. For data centers, and for the oilfield."
+  },
+  {
+   "id": "v15",
+   "text": "Back in West Texas, the Permian produces nearly twenty-eight billion cubic feet of gas a day — more than its pipelines can carry.",
+   "say": "Back in West Texas, the Permian produces nearly twenty-eight billion cubic feet of gas a day. More than its pipelines can carry."
+  },
+  {
+   "id": "v16",
+   "text": "This year, gas at Waha traded below zero for ninety days straight."
+  },
+  {
+   "id": "v17",
+   "text": "And yet, the field is short of power. Demand could reach twenty-six gigawatts by 2038 — and new lines are years away.",
+   "say": "And yet, the field is short of power. Demand could reach twenty-six gigawatts by twenty thirty-eight. And new lines are years away."
+  },
+  {
+   "id": "v18",
+   "text": "Too much gas. Not enough power."
+  },
+  {
+   "id": "v19",
+   "text": "So what if the gas never had to leave?"
+  },
+  {
+   "id": "v20",
+   "text": "The fuel the field can't sell, becoming the power it can't get — made right on site, behind the meter.",
+   "say": "The fuel the field can't sell, becoming the power it can't get. Made right on site, behind the meter."
+  },
+  {
+   "id": "v21",
+   "text": "That's the opportunity for Baker Hughes: gas-to-power, as a service.",
+   "say": "That's the opportunity for Baker Hughes. Gas to power, as a service."
+  },
+  {
+   "id": "v22",
+   "text": "NovaLT turbines, running on field gas at the pad — owned, operated, and watched around the clock by Baker Hughes.",
+   "say": "Nova L T turbines, running on field gas at the pad. Owned, operated, and watched around the clock, by Baker Hughes."
+  },
+  {
+   "id": "v23",
+   "text": "The operator doesn't buy a power plant. They buy power, by the megawatt-hour.",
+   "say": "The operator doesn't buy a power plant. They buy power, by the [megawatt hour](/mˈɛɡəwˌɑːt ˈaʊɚ/)."
+  },
+  {
+   "id": "v24",
+   "text": "Seventeen megawatts at a time. Two can run an electric frac fleet."
+  },
+  {
+   "id": "v25",
+   "text": "Moved when the field moves. Added as it grows.",
+   "say": "Moved, when the field moves. Added, as it grows."
+  },
+  {
+   "id": "v26",
+   "text": "The same fire that lit the night…"
+  },
+  {
+   "id": "v27",
+   "text": "finally put to work.",
+   "say": "Finally, put to work."
+  }
+ ]
+}

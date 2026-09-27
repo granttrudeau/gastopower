@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Same Fire — NovaLT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; font-family: "IBM Plex Mono", monospace; }
+  #stage { position: absolute; inset: 0 0 56px 0; display: flex; align-items: center; justify-content: center; }
+  body.render #stage { inset: 0; }
+  canvas#film { max-width: 100%; max-height: 100%; aspect-ratio: 16 / 9; display: block; background: #000; }
+  #ui { position: fixed; left: 0; right: 0; bottom: 0; height: 56px; display: flex; align-items: center; gap: 14px; padding: 0 18px;
+        background: #0b0f0e; color: #b9c7c2; font-size: 12px; box-sizing: border-box; border-top: 1px solid #1c2522; }
+  body.render #ui { display: none; }
+  #ui button { background: #14201d; color: #d9ece6; border: 1px solid #25342f; border-radius: 6px; padding: 6px 12px; cursor: pointer; font: inherit; }
+  #ui input[type=range] { flex: 1; accent-color: #02BC94; }
+  #ui select { background: #14201d; color: #d9ece6; border: 1px solid #25342f; border-radius: 6px; padding: 5px; font: inherit; }
+  #time { min-width: 150px; text-align: right; font-variant-numeric: tabular-nums; }
+  #shot { min-width: 170px; color: #02BC94; }
+  #loading { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; color: #6f8a82; font-size: 13px; letter-spacing: .2em; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.js", "three/addons/": "./vendor/addons/" } }
+</script>
+</head>
+<body>
+<div id="stage"><canvas id="film" width="1920" height="1080"></canvas></div>
+<div id="loading">BUILDING WORLD…</div>
+<div id="ui">
+  <button id="play">Play</button>
+  <input id="scrub" type="range" min="0" max="1000" step="1" value="0">
+  <span id="time">0:00.00</span>
+  <span id="shot">—</span>
+  <select id="quality">
+    <option value="0.5">Preview 50%</option>
+    <option value="0.75">Preview 75%</option>
+    <option value="1">Full res</option>
+  </select>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

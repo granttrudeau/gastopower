@@ -1,0 +1,20 @@
+# local toolchain, models and caches (recreate with the setup steps in README)
+tools/
+__pycache__/
+*.pyc
+.DS_Store
+
+# renders and review material (the finished film lives in GitHub Releases)
+out/master/
+out/stills/
+out/review/
+out/drafts/
+out/key_art/
+*.mp4
+
+# large or intermediate audio (audio/mix.m4a is committed for the live preview)
+audio/stems/
+audio/vo_cand/
+audio/voicetest/
+audio/mix.wav
+audio/mix_pre.wav

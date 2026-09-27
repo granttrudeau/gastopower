@@ -1,0 +1,32 @@
+{
+  "fps": 24, "aspect": 2.39, "title": "The Same Fire",
+  "shots": [
+    { "id": "s01", "module": "s01_nightglow", "start": 0.0,   "end": 11.0 },
+    { "id": "s02", "module": "s02_title",     "start": 11.0,  "end": 16.5,  "transitionIn": { "type": "crossfade", "dur": 0.8 } },
+    { "id": "s03", "module": "s03_florence",  "start": 16.5,  "end": 27.75, "transitionIn": { "type": "burn", "dur": 1.8, "seed": 3.0, "edge": [1.0, 0.42, 0.1] } },
+    { "id": "s04", "module": "s04_lineage",   "start": 27.75, "end": 39.75, "transitionIn": { "type": "invert", "dur": 1.6 } },
+    { "id": "s05", "module": "s05_blueprint", "start": 39.75, "end": 49.5,  "transitionIn": { "type": "crossfade", "dur": 1.0 } },
+    { "id": "s06", "module": "s06_cutaway",   "start": 49.5,  "end": 76.5 },
+    { "id": "s07", "module": "s07_package",   "start": 76.5,  "end": 87.0,  "transitionIn": { "type": "dip", "dur": 1.0 } },
+    { "id": "s08", "module": "s08_gas",       "start": 87.0,  "end": 101.5, "transitionIn": { "type": "dip", "dur": 1.6 } },
+    { "id": "s09", "module": "s09_grid",      "start": 101.5, "end": 113.5, "transitionIn": { "type": "crossfade", "dur": 1.2 } },
+    { "id": "s10", "module": "s10_turn",      "start": 113.5, "end": 128.5, "transitionIn": { "type": "crossfade", "dur": 1.6 } },
+    { "id": "s11", "module": "s11_service",   "start": 128.5, "end": 148.5, "transitionIn": { "type": "crossfade", "dur": 1.2 } },
+    { "id": "s12", "module": "s12_scale",     "start": 148.5, "end": 160.5, "transitionIn": { "type": "crossfade", "dur": 1.2 } },
+    { "id": "s13", "module": "s13_finale",    "start": 160.5, "end": 175.0, "transitionIn": { "type": "crossfade", "dur": 1.5 } }
+  ],
+  "vo": [
+    { "id": "v01", "start": 1.9 },   { "id": "v02", "start": 6.3 },
+    { "id": "v03", "start": 17.5 },
+    { "id": "v04", "start": 28.4 },  { "id": "v05", "start": 37.7 },
+    { "id": "v06", "start": 40.5 },  { "id": "v07", "start": 47.1 },
+    { "id": "v08", "start": 50.25 }, { "id": "v09", "start": 54.0 }, { "id": "v10", "start": 61.5 }, { "id": "v11", "start": 66.75 }, { "id": "v12", "start": 70.5 },
+    { "id": "v13", "start": 77.25 }, { "id": "v14", "start": 82.1 },
+    { "id": "v15", "start": 88.4 },  { "id": "v16", "start": 97.1 },
+    { "id": "v17", "start": 102.25 },
+    { "id": "v18", "start": 114.25 }, { "id": "v19", "start": 118.0 }, { "id": "v20", "start": 121.75 },
+    { "id": "v21", "start": 129.25 }, { "id": "v22", "start": 134.5 }, { "id": "v23", "start": 143.3 },
+    { "id": "v24", "start": 149.25 }, { "id": "v25", "start": 155.25 },
+    { "id": "v26", "start": 162.0 },  { "id": "v27", "start": 165.0 }
+  ]
+}
